@@ -15,10 +15,8 @@
                 <ul>
                     <li><a href="#navbar">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
-                    <li><a href="">PORTFOLIO</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">TEAM</a></li>
-                    <li><a href="">BLOG</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#testimonial">TESTIMONIAL</a></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
@@ -28,10 +26,11 @@
         <button class="the_first">DOWNLOAD NOW</button>
         <button class="the_second">VIEW FEATURES</button>
         <!-- <div class="left"></div> -->
-        <div class="right" id="arrow" onclick="Sroll()"></div>
+        <a href="#about" id="about-link"><div class="right" id="arrow"></div></a>
     </div>
+
     <div class="about-section" id="about">
-        <h2>ABOUT US</h2>
+        <h2 class="hero-heading">ABOUT US</h2>
         <div class="italic-text">
             Setibulum rutrum quam vitae fringilla tincidunt
         </div>
@@ -47,6 +46,96 @@
             <img src="/img/about-img.jpg" alt="About-img">
         </div>
     </div>
+
+    <div class="portfolio-section" id="portfolio">
+        <h2 class="hero-heading">PORTFOLIO</h2>
+        <h4 class="portfolio-htext">An eye for detail makes our work beautiful</h4>
+        <div class="line-border"></div>
+        <div class="img-grid">
+            <div class="container-img">
+                <img src="/img/img-1.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">GRAPHIC DESIGN</div>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="/img/img-2.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">PRINT DESIGN</div>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="/img/img-3.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">MOBILE APPS</div>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="/img/img-4.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">3D DRAWING</div>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="/img/img-5.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">INTERIOR DESIGN</div>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="/img/img-6.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">WEB DESIGN</div>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="/img/img-7.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">GRAPHIC DESIGN</div>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="/img/img-8.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">HOME DESIGN</div>
+                </div>
+            </div>
+        </div>
+        <div class="quote_container">
+            <h1 class="quote">Have a Project in Mind?</h1>
+            <button class="contact_btn">CONTACT NOW</button>
+        </div>
+    </div>
+
+    <div class="testimonial-banner" id="testimonial">
+        <h1>TESTIMONIAL</h1>
+        <div class="testi-border"></div>
+        <div class="testimonial-para" id="ts1">
+            It really saves me time and effort. web design is exactly what our business has been lacking. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem risus tristique posuere.
+        </div>
+        <h2 class="name-text">WALTER WARD</h2>
+        <div class="slider-section">
+            <div class="slider-1" id="s1" onClick="scrollOne()"></div>
+            <div class="slider-2" onClick="scrollTwo()" id="s2"></div>
+            <div class="slider-3" onClick="scrollThree()" id="s3"></div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1 class="contact-text">KEEP IN TOUCH</h1>
+        <h2 class="text-contact">
+            Do contact us in case of emergency!!
+        </h2>
+        <div class="line-border"></div>
+        <form action="#" class="contact-form">
+            <input type="text" placeholder="Enter your first name">
+            <input type="text" placeholder="Enter your last name">
+            <input type="email" placeholder="Enter your email address">
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+        </form>
+        <button class="form-btn">SUBMIT</button>
+    </div>
+
     <script src="/index.js"></script>
 </body>
 </html>
